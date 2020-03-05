@@ -1,0 +1,21 @@
+{
+  "name": "Creamic",
+  "version": "1.0.0",
+  "description": "A ui design for an ice cream company using html and tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardkissi/Creamic-.git"
+  },
+  "keywords": [],
+  "author": "Bernard Kissi",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
